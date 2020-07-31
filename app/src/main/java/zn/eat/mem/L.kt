@@ -61,7 +61,7 @@ object L {
         L.i("memInfo totalMem:"+L.getUnit(memInfo.totalMem))
         L.i("memInfo lowMemory:"+memInfo.lowMemory)  //if current is in low memory
 
-        return "BIG mem object count: ${allBitmap.size}  availMem:${L.getUnit(memInfo.availMem)} percent:${memInfo.availMem*100/memInfo.totalMem}"
+        return "BIG mem object \n count: ${allBitmap.size}  \n availMem:${L.getUnit(memInfo.availMem)} \n percent:${memInfo.availMem*100/memInfo.totalMem}"
     }
 
     private val units =
